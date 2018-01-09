@@ -1,0 +1,94 @@
+/*****************
+Global section
+******************/
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+/*****************
+Header section
+******************/
+
+.header-content {
+  margin-top: 2%;
+  border-bottom: 4px solid #7d97ad;
+}
+
+.logo-container img {
+  width: 48%;
+  height: auto;
+}
+
+.page-title {
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.page-title h1 {
+  font-weight: 300;
+  font-size: 4em;
+}
+
+/*******************
+Hero image
+*******************/
+
+.hero-section {
+  padding: 2% 0 0 0;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/******************
+Featured section
+*******************/
+
+.featured-title {
+  text-transform: capitalize;
+  color: #7d97ad;
+}
+
+.featured-towers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.featured-towers .single-tower {
+  margin: 1% 0;
+}
+
+.featured-towers h2 {
+  text-transform: uppercase;
+  color: #2d3c49;
+}
+
+.featured-towers img {
+  width: 100%;
+  height: auto;
+}
+
+.single-tower a {
+  color: #2d3c49;
+}
+
+/********************
+Responsive section
+*********************/
+
+@media screen and (max-width: 768px) {
+  .page-title, .logo-container {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .logo-container img {
+    width: 30%;
+  }
+}
