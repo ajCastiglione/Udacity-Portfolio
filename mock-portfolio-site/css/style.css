@@ -15,17 +15,17 @@ Header section
   border-bottom: 4px solid #7d97ad;
 }
 
-.logo-container img {
+.logo {
   width: 48%;
   height: auto;
 }
 
-.page-title {
+.titles {
   text-align: right;
   text-transform: uppercase;
 }
 
-.page-title h1 {
+.page-title {
   font-weight: 300;
   font-size: 4em;
 }
@@ -63,17 +63,17 @@ Featured section
   margin: 1% 0;
 }
 
-.featured-towers h2 {
+.tower-title {
   text-transform: uppercase;
   color: #2d3c49;
 }
 
-.featured-towers img {
+.tower-image {
   width: 100%;
   height: auto;
 }
 
-.single-tower a {
+.tower-link {
   color: #2d3c49;
 }
 
@@ -88,7 +88,7 @@ Responsive section
 }
 
 @media screen and (min-width: 990px) {
-  .logo-container img {
+  .logo {
     width: 30%;
   }
 }
